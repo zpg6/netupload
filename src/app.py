@@ -43,7 +43,6 @@ template_string = """
       }
     </style>
     <title>netupload</title>
-    <!--<script>alert('Files uploaded successfully!');</script>-->
   </head>
   <body>
     <div class="container">
@@ -75,14 +74,7 @@ def upload_files():
     if request.method == "POST":
         files = request.files.getlist("file")
         save_files(files, app.config["SAVE_DIRECTORY"])
-        return render_template_string(
-            # Unlocks the success message, but otherwise sends the user
-            # to the same starting page, feels like it is just reset.
-            template_string.replace(
-                "<!--<script>alert('Files uploaded successfully!');</script>-->",
-                "<script>alert('Files uploaded successfully!');</script>",
-            )
-        )
+        return "Files uploaded successfully!"
 
     return render_template_string(template_string)
 
