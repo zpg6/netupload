@@ -55,9 +55,9 @@ You will see the
  * Debug mode: off
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:4000
- * Running on http://192.168.1.231:4000 <--------- THIS ADDRESS WITH YOUR COMPUTER'S LOCAL IP
+ * Running on http://192.168.1.123:4000 <--------- THIS ADDRESS WITH YOUR COMPUTER'S LOCAL IP
 ```
 
 Navigate to the address shown in the terminal to access the webpage:
 
-![Webpage Screenshot](https://github.com/zpg6/netupload/raw/main/docs/webpage_screenshot.png)
+![Webpage Screenshot](https://github.com/zpg6/netupload/raw/main/docs/cli_to_webpage.png)
