@@ -19,15 +19,17 @@ Sometimes you don't want to login to your email and don't have a USB so this can
 
 ## Usage
 
+Install the package:
+
 ```
 pip install netupload
 ```
 
+Start the server with the default options:
+
 ```
 netupload
 ```
-
-![Webpage Screenshot](https://github.com/zpg6/netupload/raw/main/docs/webpage_screenshot.png)
 
 ## Options
 
@@ -40,3 +42,22 @@ netupload --host=0.0.0.0 --port=4000 --save-dir=./uploads
 | --host     | Host to run the server on        | 0.0.0.0   |
 | --port     | Port to run the server on        | 4000      |
 | --save-dir | Directory to save uploaded files | ./uploads |
+
+## Webpage
+
+The server runs a webpage that you can access from any device on the same network.
+You will see the
+
+```
+> netupload --host=0.0.0.0 --port=4000 --save-dir=./uploads
+
+ * Serving Flask app 'src.app'
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4000
+ * Running on http://192.168.1.231:4000 <--------- THIS ADDRESS WITH YOUR COMPUTER'S LOCAL IP
+```
+
+Navigate to the address shown in the terminal to access the webpage:
+
+![Webpage Screenshot](https://github.com/zpg6/netupload/raw/main/docs/webpage_screenshot.png)
