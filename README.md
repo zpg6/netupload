@@ -4,6 +4,8 @@ Simple file upload server for when you need to send files around on your local n
 
 Sometimes you don't want to login to your email and don't have a USB so this can be a quick way to transfer files.
 
+![Webpage Screenshot](./docs/webpage_screenshot.png)
+
 ## Usage
 
 ```
