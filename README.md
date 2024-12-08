@@ -17,6 +17,8 @@ Sometimes you don't want to login to your email and don't have a USB so this can
 
 ![How it works](https://github.com/zpg6/netupload/raw/main/docs/how_it_works.png)
 
+![Webpage Screenshot](https://github.com/zpg6/netupload/raw/main/docs/cli_to_webpage.png)
+
 ## Usage
 
 Install the package:
@@ -58,6 +60,4 @@ You will see the
  * Running on http://192.168.1.123:4000 <--------- THIS ADDRESS WITH YOUR COMPUTER'S LOCAL IP
 ```
 
-Navigate to the address shown in the terminal to access the webpage:
-
-![Webpage Screenshot](https://github.com/zpg6/netupload/raw/main/docs/cli_to_webpage.png)
+Navigate to the address shown in the terminal to access the webpage.

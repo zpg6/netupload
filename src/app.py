@@ -88,10 +88,13 @@ def run_server():
         help="Directory to save uploaded files",
     )
     parser.add_argument(
-        "--host", type=str, default="0.0.0.0", help="Host to run the Flask server"
+        "--host",
+        type=str,
+        default="0.0.0.0",
+        help="Host to run the Flask server. `0.0.0.0` is recommended to make the server accessible from all network interfaces.",
     )
     parser.add_argument(
-        "--port", type=int, default=4000, help="Port to run the Flask server"
+        "--port", type=int, default=4000, help="Port to run the Flask server. Any available port can be used."
     )
 
     args = parser.parse_args()
